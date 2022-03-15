@@ -114,10 +114,16 @@ li{
 
 .tag{
     display: inline-block;
+    color: white;
+    font-size: x-small;
     border: 1px solid;
     border-radius: 10px;
     margin-left: 5px;
-    padding: 3px;
+    padding: 5px 10px;
 }
 
+.__editorial{
+
+    background-color: #45abea ;
+}
 /* /Regole di stile per la todo-list */
