@@ -11,6 +11,7 @@ body{
     background-color: red;              /*Usato solo per test */
 }
 
+/* Regole di stile per header */
 header{
     background-color: white;
     padding: 15px;
@@ -25,4 +26,44 @@ h1{
 
 #logo{
     vertical-align: middle;
+}
+/* /Regole di stile per header */
+
+/* Regole di stile per main */
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: white;
+
+}
+/* /Regole di stile per main */
+
+.user_service{
+    margin-left: 40px;
+}
+
+button{
+    color: grey;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px, 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+#add_t{
+    color: white;
+    border-color: #47adf1;
+    background-color: #47adf1;
+}
+
+hr{
+    border: 1px thick grey;
 }
