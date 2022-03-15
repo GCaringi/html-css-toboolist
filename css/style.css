@@ -41,6 +41,8 @@ h1{
 }
 /* /Regole di stile per main */
 
+
+/* Regole di stile per i bottoni */
 .user_service{
     margin-left: 40px;
 }
@@ -67,3 +69,45 @@ button{
 hr{
     border: 1px thick grey;
 }
+/* /Regole di stile per i bottoni */
+
+/* Regole di stile per la todo-list */
+.todo_list{
+    margin: 40px;
+}
+
+.cascade_symbol{
+    font-size: small;
+    margin-right: 8px;
+}
+
+h3{
+    display: inline-block;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    margin-right: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.__green{
+    color: #75c9b6;
+}
+
+__red{
+    color: red;
+}
+
+
+/* /Regole di stile per la todo-list */
