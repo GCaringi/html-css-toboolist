@@ -89,6 +89,9 @@ h3{
 ul{
     list-style-type: none;
 }
+li{
+    margin-top: 5px;
+}
 
 .check{
     display: inline-block;
@@ -105,9 +108,16 @@ ul{
     color: #75c9b6;
 }
 
-__red{
+.__red{
     color: red;
 }
 
+.tag{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 3px;
+}
 
 /* /Regole di stile per la todo-list */
