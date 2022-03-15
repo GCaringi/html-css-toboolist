@@ -7,8 +7,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    /* background-color: #f6f8f9; */
-    background-color: red;              /*Usato solo per test */
+    background-color: #f6f8f9;
+    /* background-color: red;              Usato solo per test */
 }
 
 /* Regole di stile per header */
@@ -31,10 +31,11 @@ h1{
 
 /* Regole di stile per main */
 .container{
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
     margin-top: 10%;
+    margin-bottom: 10px;
     border-radius: 10px;
     background-color: white;
 
@@ -94,6 +95,7 @@ li{
     margin-bottom: 15px;
 }
 
+/* Regole per le check o wrong */
 .check{
     display: inline-block;
     width: 20px;
@@ -112,7 +114,9 @@ li{
 .__red{
     color: red;
 }
+/* /Regole per le check o wrong */
 
+/* Regole per le label dei task */
 .label{
     display: inline-block;
     color: white;
@@ -146,5 +150,5 @@ li{
 .__sales{
     background-color: #b0c926;
 }
-
+/* /Regole per le label dei task */
 /* /Regole di stile per la todo-list */
