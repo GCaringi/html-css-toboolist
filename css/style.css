@@ -91,6 +91,7 @@ ul{
 }
 li{
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .check{
@@ -112,7 +113,7 @@ li{
     color: red;
 }
 
-.tag{
+.label{
     display: inline-block;
     color: white;
     font-size: x-small;
@@ -123,7 +124,19 @@ li{
 }
 
 .__editorial{
-
     background-color: #45abea ;
 }
+
+.__Q1{
+    background-color: #9c72e4 ;
+}
+
+.__recruiting{
+    background-color: #64c0a9 ;
+}
+
+.__mobile{
+    background-color: #f29e33 ;
+}
+
 /* /Regole di stile per la todo-list */
