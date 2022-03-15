@@ -49,12 +49,12 @@ h1{
 }
 
 button{
-    color: grey;
-    padding: 3px 10px;
+    color: lightgrey;
+    padding: 6px 14px;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px, 5px;
     margin-top: 20px;
     margin-bottom: 15px;
