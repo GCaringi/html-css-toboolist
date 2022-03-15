@@ -90,8 +90,8 @@ ul{
     list-style-type: none;
 }
 li{
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .check{
@@ -137,6 +137,14 @@ li{
 
 .__mobile{
     background-color: #f29e33 ;
+}
+
+.__web{
+    background-color: #d863a1;
+}
+
+.__sales{
+    background-color: #b0c926;
 }
 
 /* /Regole di stile per la todo-list */
