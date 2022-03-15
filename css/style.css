@@ -8,7 +8,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f6f8f9;
-    /* background-color: red;              Usato solo per test */
+    /* background-color: red;              /*Usato solo per test */
 }
 
 /* Regole di stile per header */
@@ -78,7 +78,7 @@ hr{
 }
 
 .cascade_symbol{
-    font-size: small;
+    font-size: larger;
     margin-right: 8px;
 }
 
@@ -98,6 +98,7 @@ li{
 /* Regole per le check o wrong */
 .check{
     display: inline-block;
+    font-size: x-small;
     width: 20px;
     height: 20px;
     border: 1px solid;
